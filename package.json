@@ -1,0 +1,23 @@
+{
+  "name": "WebPackTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "html-webpack-plugin": "^3.0.6",
+    "ignore-assets-webpack-plugin": "^2.0.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
