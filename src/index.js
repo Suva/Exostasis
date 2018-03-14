@@ -1,2 +1,3 @@
 let lodash = require("lodash")
-alert(1);
+
+console.log("This is interesting")
