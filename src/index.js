@@ -1,7 +1,14 @@
 let renderer = require("./main-renderer")
 require("../css/main.css")
+cat = newImage(require("../img/P1000315.jpg"))
 
-window.onload = function () {
+function newImage(src) {
+    const img = new Image();
+    img.src = src
+    return img
+}
+
+window.onload = async function () {
     let container = document.createElement("div");
     container.setAttribute("class", "container")
     let canvas = document.createElement("canvas");
@@ -12,12 +19,10 @@ window.onload = function () {
     document.body.appendChild(container);
 
     const ctx = canvas.getContext('2d');
-    ctx.fillStyle = 'rgb(200, 0, 0)';
-    ctx.fillRect(10, 10, 50, 50);
 
     function frame() {
-        ctx.clearRect(0, 0, 1920, 1080)
-        renderer.render(ctx);
+        ctx.drawImage(cat, 0, 0)
+        renderer.render(ctx)
         window.requestAnimationFrame(frame);
     }
 
