@@ -13,5 +13,13 @@ module.exports = {
         new HtmlWebpackPlugin({inlineSource: '.(js|css)$'}),
         new HtmlWebpackInlineSourcePlugin(),
         new IgnoreAssetsWebpackPlugin({ignore: 'main.js'})
-    ]
+    ],
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use: [ 'style-loader', 'css-loader' ]
+            }
+        ]
+    }
 };
