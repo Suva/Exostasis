@@ -1,6 +1,8 @@
-let renderer = require("./main-renderer")
 require("../css/main.css")
-cat = newImage(require("../img/P1000315.jpg"))
+
+let renderer = require("./main-renderer")
+let cat = newImage(require("../img/P1000315.jpg"))
+let midi = require( "./MidiController");
 
 function newImage(src) {
     const img = new Image();
@@ -26,6 +28,6 @@ window.onload = async function () {
         window.requestAnimationFrame(frame);
     }
 
-    window.requestAnimationFrame(frame);
+    // window.requestAnimationFrame(frame);
 }
 
