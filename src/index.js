@@ -1,14 +1,8 @@
 require("../css/main.css")
 
-let Renderer = require("./main-renderer")
-let cat = newImage(require("../img/P1000315.jpg"))
+let Renderer = require("./Renderer")
+let { cat } = require("./Images")
 let midi = require( "./MidiController");
-
-function newImage(src) {
-    const img = new Image();
-    img.src = src
-    return img
-}
 
 window.onload = async function () {
     let container = document.createElement("div");

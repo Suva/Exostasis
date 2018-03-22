@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'murder';
+    src: url('aThemeformurder.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body, html {
     background: black;
     padding: 0;

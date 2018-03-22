@@ -1,4 +1,5 @@
 module.exports = {
+    cat: newImage(require("../img/P1000315.jpg")),
     grain: newImage(require('../img/noise.png'))
 }
 
