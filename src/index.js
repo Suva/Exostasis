@@ -1,6 +1,6 @@
 require("../css/main.css")
 
-let renderer = require("./main-renderer")
+let Renderer = require("./main-renderer")
 let cat = newImage(require("../img/P1000315.jpg"))
 let midi = require( "./MidiController");
 
@@ -22,12 +22,14 @@ window.onload = async function () {
 
     const ctx = canvas.getContext('2d');
 
+    const renderer = Renderer(ctx)
+
     function frame() {
         ctx.drawImage(cat, 0, 0)
-        renderer.render(ctx)
+        renderer.render()
         window.requestAnimationFrame(frame);
     }
 
-    // window.requestAnimationFrame(frame);
+    window.requestAnimationFrame(frame);
 }
 
