@@ -23,6 +23,7 @@
     "webpack-dev-server": "^3.1.1"
   },
   "dependencies": {
-    "webmidi": "^2.0.0"
+    "webmidi": "^2.0.0",
+    "lodash": "latest"
   }
 }

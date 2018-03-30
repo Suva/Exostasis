@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'murder';
-    src: url('aThemeformurder.woff') format('woff');
+    src: url('boycott.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -11,6 +11,7 @@ body, html {
     margin: 0;
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 body {
@@ -21,11 +22,12 @@ body {
 
 .container {
     width: 100%;
-    padding-top: 56.25%;
+    padding-bottom: 56.25%;
     position: relative;
     margin: 0;
     background: white;
 }
+
 canvas {
     position: absolute;
     top: 0;

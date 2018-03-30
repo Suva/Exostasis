@@ -1,8 +1,6 @@
 require("../css/main.css")
 
 let Renderer = require("./Renderer")
-let { cat } = require("./Images")
-let midi = require( "./MidiController");
 
 window.onload = async function () {
     let container = document.createElement("div");
@@ -25,7 +23,6 @@ window.onload = async function () {
     const renderer = Renderer(ctx, backBuf, target)
 
     function frame() {
-        ctx.drawImage(cat, 0, 0, 960, 540)
         renderer.render()
         window.requestAnimationFrame(frame);
     }

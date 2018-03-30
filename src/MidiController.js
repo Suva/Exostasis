@@ -2,7 +2,7 @@ const WebMidi = require("webmidi")
 
 window.WebMidi = WebMidi
 
-const noteListeners = {};
+const noteListeners = [];
 
 WebMidi.enable(() => {
     const input = WebMidi.getInputByName("TSCFF");
@@ -12,19 +12,13 @@ WebMidi.enable(() => {
         let noteName = note.name + note.octave;
 
         console.log(noteName, noteEvent)
-
-        if(noteListeners[note]) {
-            noteListeners[note].forEach((cb) => cb({note, velocity, channel}))
-        }
+        let recNote = {number: note.number, noteName, velocity, channel};
+        noteListeners.forEach((cb) => cb(recNote))
     })
 })
 
 module.exports = {
-    onNote(note, handler) {
-        if(!noteListeners[note]) {
-            noteListeners[note] = []
-        }
-
-        noteListeners[note].push(handler)
+    onNote(handler) {
+        noteListeners.push(handler)
     }
 }

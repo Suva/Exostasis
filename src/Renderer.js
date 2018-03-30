@@ -1,5 +1,7 @@
 const Grain = require('./FilmGrain')
 const RandomText = require('./RandomText')
+const BackgroundDrawer = require('./BackgroundDrawer')
+let midi = require( "./MidiController");
 
 function pad(n, width, z) {
     z = z || '0';
@@ -16,6 +18,7 @@ module.exports = function (ctx, src, target) {
 
     const grain = Grain(target)
     const randomText = RandomText(ctx)
+    const backgroundDrawer = BackgroundDrawer(ctx)
 
     let xpos = 0;
     let ypos = 0;
@@ -28,6 +31,8 @@ module.exports = function (ctx, src, target) {
             xpos = calculatePosition(xpos)
             ypos = calculatePosition(ypos)
 
+            backgroundDrawer.render()
+
             target.save()
             target.translate(Math.floor(xpos), Math.floor(ypos))
             target.drawImage(src, -20, -20, 1920 + 20, 1080 + 20)
@@ -36,8 +41,6 @@ module.exports = function (ctx, src, target) {
             target.fillStyle = "#CCC"
             target.font = '40px sans-serif'
             target.fillText("#" + pad(++frame, 6), 10, 40)
-
-
 
             grain.render()
         }
