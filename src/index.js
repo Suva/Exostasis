@@ -13,7 +13,6 @@ window.onload = async function () {
     backBuf.setAttribute("width", 960);
     backBuf.setAttribute("height", 540);
 
-
     container.appendChild(canvas);
     document.body.appendChild(container);
 

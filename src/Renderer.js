@@ -1,6 +1,7 @@
 const Grain = require('./FilmGrain')
 const RandomText = require('./RandomText')
 const BackgroundDrawer = require('./BackgroundDrawer')
+const Flash = require('./Flash')
 let midi = require( "./MidiController");
 
 function pad(n, width, z) {
@@ -18,7 +19,12 @@ module.exports = function (ctx, src, target) {
 
     const grain = Grain(target)
     const randomText = RandomText(ctx)
-    const backgroundDrawer = BackgroundDrawer(ctx)
+    const painters = [
+        BackgroundDrawer(ctx),
+        Flash(ctx, 36, 'screen'),
+        Flash(ctx, 37, 'difference'),
+        Flash(ctx, 38, 'overlay')
+    ]
 
     let xpos = 0;
     let ypos = 0;
@@ -31,7 +37,7 @@ module.exports = function (ctx, src, target) {
             xpos = calculatePosition(xpos)
             ypos = calculatePosition(ypos)
 
-            backgroundDrawer.render()
+            painters.forEach(painter => painter.render())
 
             target.save()
             target.translate(Math.floor(xpos), Math.floor(ypos))
