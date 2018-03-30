@@ -10,7 +10,7 @@ function easeIn(t) {
 }
 
 module.exports = function (ctx, note, modifier) {
-    let opacity = 0
+    let phase = 0
 
     let bufCnv = document.createElement('canvas')
     bufCnv.setAttribute("width", 960)
@@ -21,23 +21,23 @@ module.exports = function (ctx, note, modifier) {
         if(number === note) {
             console.log('flash Triggered')
             bufCtx.drawImage(ctx.canvas, 0, 0)
-            opacity = 1
+            phase = 1
         }
     })
 
 
     return {
-        render(){
-            if(opacity >= 0) {
+        render(delta){
+            if(phase >= 0) {
                 ctx.save()
-                let scale = 1 - easeOut(opacity) + 1
+                let scale = 1 - easeOut(phase) + 1
                 ctx.globalCompositeOperation = modifier;
-                ctx.globalAlpha = easeOut(opacity)
+                ctx.globalAlpha = easeOut(phase)
                 ctx.translate(480, 270)
                 ctx.scale(scale, scale)
                 ctx.drawImage(bufCnv, -480, -270)
                 ctx.restore()
-                opacity -= 0.01
+                phase -= delta * 0.0003
             }
         }
     }

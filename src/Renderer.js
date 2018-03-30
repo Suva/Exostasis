@@ -28,6 +28,7 @@ module.exports = function (ctx, src, target) {
 
     let xpos = 0;
     let ypos = 0;
+    let time = Date.now()
 
     return {
         render() {
@@ -37,7 +38,10 @@ module.exports = function (ctx, src, target) {
             xpos = calculatePosition(xpos)
             ypos = calculatePosition(ypos)
 
-            painters.forEach(painter => painter.render())
+            let newTime = Date.now()
+            let delta = newTime - time
+            time = newTime
+            painters.forEach(painter => painter.render(delta))
 
             target.save()
             target.translate(Math.floor(xpos), Math.floor(ypos))
