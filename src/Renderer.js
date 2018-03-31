@@ -1,13 +1,8 @@
 const Grain = require('./FilmGrain')
 const RandomText = require('./RandomText')
+const PlacedText = require('./PlacedText')
 const BackgroundDrawer = require('./BackgroundDrawer')
 const Flash = require('./Flash')
-
-function pad(n, width, z) {
-    z = z || '0';
-    n = n + '';
-    return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
-}
 
 function calculatePosition(pos) {
     return (Math.max(Math.min((Math.random() - 0.5) * 4 + pos, 20), 0));
@@ -23,6 +18,7 @@ module.exports = function (ctx, target) {
         Flash(ctx, 37, 'difference'),
         Flash(ctx, 38, 'overlay'),
         RandomText(ctx, 48, "LOOK"),
+        // PlacedText(ctx, 48, 60, 460, 100, "LOOK"),
         RandomText(ctx, 49, "THEY"),
         RandomText(ctx, 50, "THEY ARE WATING"),
         RandomText(ctx, 51, "FOR US")
@@ -34,9 +30,6 @@ module.exports = function (ctx, target) {
 
     return {
         render() {
-
-            // randomText.render();
-
             xpos = calculatePosition(xpos)
             ypos = calculatePosition(ypos)
 
@@ -49,10 +42,6 @@ module.exports = function (ctx, target) {
             target.translate(Math.floor(xpos), Math.floor(ypos))
             target.drawImage(ctx.canvas, -20, -20, 1920 + 20, 1080 + 20)
             target.restore()
-
-            target.fillStyle = "#CCC"
-            target.font = '40px sans-serif'
-            target.fillText("#" + pad(++frame, 6), 10, 40)
 
             grain.render()
         }

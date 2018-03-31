@@ -1,0 +1,2998 @@
+[
+  {
+    "type": "on",
+    "number": 0,
+    "velocity": 0.8267716535433071,
+    "channel": 1,
+    "time": 0
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 0.14960629921259844,
+    "channel": 1,
+    "time": 0
+  },
+  {
+    "type": "off",
+    "number": 0,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 293
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 293
+  },
+  {
+    "type": "on",
+    "number": 2,
+    "velocity": 0.14960629921259844,
+    "channel": 1,
+    "time": 293
+  },
+  {
+    "type": "off",
+    "number": 2,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 600
+  },
+  {
+    "type": "on",
+    "number": 3,
+    "velocity": 0.14960629921259844,
+    "channel": 1,
+    "time": 4795
+  },
+  {
+    "type": "off",
+    "number": 3,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 5093
+  },
+  {
+    "type": "on",
+    "number": 5,
+    "velocity": 0.14960629921259844,
+    "channel": 1,
+    "time": 9594
+  },
+  {
+    "type": "off",
+    "number": 5,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 9891
+  },
+  {
+    "type": "on",
+    "number": 7,
+    "velocity": 0.14960629921259844,
+    "channel": 1,
+    "time": 14392
+  },
+  {
+    "type": "off",
+    "number": 7,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 14700
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 1,
+    "channel": 1,
+    "time": 19192
+  },
+  {
+    "type": "on",
+    "number": 3,
+    "velocity": 1,
+    "channel": 1,
+    "time": 19193
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 19349
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 19501
+  },
+  {
+    "type": "off",
+    "number": 3,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 19501
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 19650
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 21595
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 21893
+  },
+  {
+    "type": "on",
+    "number": 4,
+    "velocity": 0.14960629921259844,
+    "channel": 1,
+    "time": 24002
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 24071
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 24112
+  },
+  {
+    "type": "off",
+    "number": 4,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 24299
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 26393
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 26691
+  },
+  {
+    "type": "on",
+    "number": 6,
+    "velocity": 0.14960629921259844,
+    "channel": 1,
+    "time": 28799
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 28949
+  },
+  {
+    "type": "off",
+    "number": 6,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 29093
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 29245
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 31192
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 31501
+  },
+  {
+    "type": "on",
+    "number": 8,
+    "velocity": 0.14960629921259844,
+    "channel": 1,
+    "time": 33599
+  },
+  {
+    "type": "off",
+    "number": 8,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 33893
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 33893
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 34192
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 35993
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 36300
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 1,
+    "channel": 1,
+    "time": 38401
+  },
+  {
+    "type": "on",
+    "number": 0,
+    "velocity": 0.8267716535433071,
+    "channel": 1,
+    "time": 38401
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 38401
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 0.9448818897637795,
+    "channel": 1,
+    "time": 38431
+  },
+  {
+    "type": "on",
+    "number": 48,
+    "velocity": 0.7874015748031497,
+    "channel": 1,
+    "time": 38433
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 38692
+  },
+  {
+    "type": "off",
+    "number": 0,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 38692
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 38692
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 38692
+  },
+  {
+    "type": "on",
+    "number": 4,
+    "velocity": 0.14960629921259844,
+    "channel": 1,
+    "time": 38692
+  },
+  {
+    "type": "off",
+    "number": 4,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 39001
+  },
+  {
+    "type": "off",
+    "number": 48,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 40792
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 0.9448818897637795,
+    "channel": 1,
+    "time": 40792
+  },
+  {
+    "type": "on",
+    "number": 48,
+    "velocity": 0.7716535433070866,
+    "channel": 1,
+    "time": 40799
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 41099
+  },
+  {
+    "type": "off",
+    "number": 48,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 42000
+  },
+  {
+    "type": "on",
+    "number": 48,
+    "velocity": 0.7716535433070866,
+    "channel": 1,
+    "time": 42000
+  },
+  {
+    "type": "off",
+    "number": 48,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 43195
+  },
+  {
+    "type": "on",
+    "number": 5,
+    "velocity": 0.14960629921259844,
+    "channel": 1,
+    "time": 43195
+  },
+  {
+    "type": "on",
+    "number": 49,
+    "velocity": 0.7716535433070866,
+    "channel": 1,
+    "time": 43195
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 43195
+  },
+  {
+    "type": "off",
+    "number": 5,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 43493
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 43493
+  },
+  {
+    "type": "off",
+    "number": 49,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 45600
+  },
+  {
+    "type": "on",
+    "number": 38,
+    "velocity": 0.9448818897637795,
+    "channel": 1,
+    "time": 45600
+  },
+  {
+    "type": "on",
+    "number": 49,
+    "velocity": 0.7716535433070866,
+    "channel": 1,
+    "time": 45602
+  },
+  {
+    "type": "off",
+    "number": 38,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 45895
+  },
+  {
+    "type": "on",
+    "number": 50,
+    "velocity": 0.7716535433070866,
+    "channel": 1,
+    "time": 46799
+  },
+  {
+    "type": "off",
+    "number": 49,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 47994
+  },
+  {
+    "type": "on",
+    "number": 7,
+    "velocity": 0.14960629921259844,
+    "channel": 1,
+    "time": 47995
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 47995
+  },
+  {
+    "type": "off",
+    "number": 7,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 48293
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 48293
+  },
+  {
+    "type": "on",
+    "number": 49,
+    "velocity": 0.7716535433070866,
+    "channel": 1,
+    "time": 49192
+  },
+  {
+    "type": "off",
+    "number": 50,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 50399
+  },
+  {
+    "type": "off",
+    "number": 49,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 50400
+  },
+  {
+    "type": "on",
+    "number": 51,
+    "velocity": 0.7716535433070866,
+    "channel": 1,
+    "time": 50400
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 0.9448818897637795,
+    "channel": 1,
+    "time": 50400
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 50694
+  },
+  {
+    "type": "off",
+    "number": 51,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 51595
+  },
+  {
+    "type": "on",
+    "number": 49,
+    "velocity": 0.7716535433070866,
+    "channel": 1,
+    "time": 51595
+  },
+  {
+    "type": "on",
+    "number": 51,
+    "velocity": 0.7716535433070866,
+    "channel": 1,
+    "time": 51595
+  },
+  {
+    "type": "off",
+    "number": 49,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 52793
+  },
+  {
+    "type": "off",
+    "number": 51,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 52794
+  },
+  {
+    "type": "on",
+    "number": 8,
+    "velocity": 0.14960629921259844,
+    "channel": 1,
+    "time": 52795
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 0.9448818897637795,
+    "channel": 1,
+    "time": 52795
+  },
+  {
+    "type": "on",
+    "number": 50,
+    "velocity": 0.7716535433070866,
+    "channel": 1,
+    "time": 52796
+  },
+  {
+    "type": "off",
+    "number": 8,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 53100
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 53100
+  },
+  {
+    "type": "off",
+    "number": 50,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 53999
+  },
+  {
+    "type": "on",
+    "number": 51,
+    "velocity": 0.7716535433070866,
+    "channel": 1,
+    "time": 54000
+  },
+  {
+    "type": "off",
+    "number": 51,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 55199
+  },
+  {
+    "type": "on",
+    "number": 49,
+    "velocity": 0.7716535433070866,
+    "channel": 1,
+    "time": 55200
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 1,
+    "channel": 1,
+    "time": 55200
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 55494
+  },
+  {
+    "type": "off",
+    "number": 49,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 56393
+  },
+  {
+    "type": "on",
+    "number": 51,
+    "velocity": 0.7716535433070866,
+    "channel": 1,
+    "time": 56393
+  },
+  {
+    "type": "off",
+    "number": 51,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 57599
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 1,
+    "channel": 1,
+    "time": 57599
+  },
+  {
+    "type": "on",
+    "number": 10,
+    "velocity": 1,
+    "channel": 1,
+    "time": 57599
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 57749
+  },
+  {
+    "type": "off",
+    "number": 10,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 57749
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 58800
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 58949
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 59699
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 59848
+  },
+  {
+    "type": "on",
+    "number": 11,
+    "velocity": 1,
+    "channel": 1,
+    "time": 59995
+  },
+  {
+    "type": "off",
+    "number": 11,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 60143
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 61194
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 61343
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 1,
+    "channel": 1,
+    "time": 61801
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 61944
+  },
+  {
+    "type": "on",
+    "number": 10,
+    "velocity": 1,
+    "channel": 1,
+    "time": 62402
+  },
+  {
+    "type": "off",
+    "number": 10,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 62548
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 63745
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 63895
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 66595
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 66744
+  },
+  {
+    "type": "on",
+    "number": 38,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 66744
+  },
+  {
+    "type": "off",
+    "number": 38,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 66892
+  },
+  {
+    "type": "on",
+    "number": 10,
+    "velocity": 1,
+    "channel": 1,
+    "time": 67203
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 1,
+    "channel": 1,
+    "time": 67203
+  },
+  {
+    "type": "off",
+    "number": 10,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 67351
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 67351
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 68394
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 68543
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 69301
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 69444
+  },
+  {
+    "type": "on",
+    "number": 11,
+    "velocity": 1,
+    "channel": 1,
+    "time": 69593
+  },
+  {
+    "type": "off",
+    "number": 11,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 69742
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 70801
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 70950
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 1,
+    "channel": 1,
+    "time": 71395
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 71543
+  },
+  {
+    "type": "on",
+    "number": 10,
+    "velocity": 1,
+    "channel": 1,
+    "time": 72002
+  },
+  {
+    "type": "off",
+    "number": 10,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 72145
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 73344
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 73494
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 76193
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 76343
+  },
+  {
+    "type": "on",
+    "number": 38,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 76343
+  },
+  {
+    "type": "off",
+    "number": 38,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 76500
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 1,
+    "channel": 1,
+    "time": 76802
+  },
+  {
+    "type": "on",
+    "number": 14,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 76803
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 76944
+  },
+  {
+    "type": "off",
+    "number": 14,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 77093
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 77994
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 78144
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 78895
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 79043
+  },
+  {
+    "type": "on",
+    "number": 11,
+    "velocity": 1,
+    "channel": 1,
+    "time": 79192
+  },
+  {
+    "type": "off",
+    "number": 11,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 79349
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 80399
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 80545
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 1,
+    "channel": 1,
+    "time": 80993
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 81152
+  },
+  {
+    "type": "on",
+    "number": 14,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 81595
+  },
+  {
+    "type": "off",
+    "number": 14,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 81894
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 82942
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 83100
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 85800
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 85951
+  },
+  {
+    "type": "on",
+    "number": 38,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 85951
+  },
+  {
+    "type": "off",
+    "number": 38,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 86100
+  },
+  {
+    "type": "on",
+    "number": 10,
+    "velocity": 1,
+    "channel": 1,
+    "time": 86394
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 1,
+    "channel": 1,
+    "time": 86394
+  },
+  {
+    "type": "off",
+    "number": 10,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 86541
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 86542
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 87592
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 87750
+  },
+  {
+    "type": "on",
+    "number": 13,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 87899
+  },
+  {
+    "type": "off",
+    "number": 13,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 88194
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 88492
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 88651
+  },
+  {
+    "type": "on",
+    "number": 11,
+    "velocity": 1,
+    "channel": 1,
+    "time": 88800
+  },
+  {
+    "type": "off",
+    "number": 11,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 88951
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 89995
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 90144
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 1,
+    "channel": 1,
+    "time": 90600
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 90749
+  },
+  {
+    "type": "on",
+    "number": 10,
+    "velocity": 1,
+    "channel": 1,
+    "time": 91194
+  },
+  {
+    "type": "off",
+    "number": 10,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 91341
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 92551
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 92700
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 95400
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 95545
+  },
+  {
+    "type": "on",
+    "number": 38,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 95545
+  },
+  {
+    "type": "off",
+    "number": 38,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 95694
+  },
+  {
+    "type": "on",
+    "number": 14,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 95994
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 1,
+    "channel": 1,
+    "time": 95994
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 96151
+  },
+  {
+    "type": "off",
+    "number": 14,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 96300
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 97202
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 97349
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 98101
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 98252
+  },
+  {
+    "type": "on",
+    "number": 11,
+    "velocity": 1,
+    "channel": 1,
+    "time": 98396
+  },
+  {
+    "type": "off",
+    "number": 11,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 98544
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 99594
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 99742
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 1,
+    "channel": 1,
+    "time": 100201
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 100345
+  },
+  {
+    "type": "on",
+    "number": 14,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 100803
+  },
+  {
+    "type": "off",
+    "number": 14,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 101099
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 102145
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 102294
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 104995
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 105144
+  },
+  {
+    "type": "on",
+    "number": 38,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 105144
+  },
+  {
+    "type": "off",
+    "number": 38,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 105294
+  },
+  {
+    "type": "on",
+    "number": 10,
+    "velocity": 1,
+    "channel": 1,
+    "time": 105604
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 1,
+    "channel": 1,
+    "time": 105604
+  },
+  {
+    "type": "off",
+    "number": 10,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 105750
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 105750
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 106797
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 106943
+  },
+  {
+    "type": "on",
+    "number": 13,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 107093
+  },
+  {
+    "type": "off",
+    "number": 13,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 107401
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 107701
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 107844
+  },
+  {
+    "type": "on",
+    "number": 11,
+    "velocity": 1,
+    "channel": 1,
+    "time": 107993
+  },
+  {
+    "type": "off",
+    "number": 11,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 108144
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 109200
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 109351
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 1,
+    "channel": 1,
+    "time": 109794
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 109942
+  },
+  {
+    "type": "on",
+    "number": 10,
+    "velocity": 1,
+    "channel": 1,
+    "time": 110401
+  },
+  {
+    "type": "off",
+    "number": 10,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 110545
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 111743
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 111893
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 114591
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 114900
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 1,
+    "channel": 1,
+    "time": 115199
+  },
+  {
+    "type": "on",
+    "number": 16,
+    "velocity": 1,
+    "channel": 1,
+    "time": 115199
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 115346
+  },
+  {
+    "type": "off",
+    "number": 16,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 115346
+  },
+  {
+    "type": "on",
+    "number": 18,
+    "velocity": 1,
+    "channel": 1,
+    "time": 117592
+  },
+  {
+    "type": "off",
+    "number": 18,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 117749
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 119994
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 120143
+  },
+  {
+    "type": "on",
+    "number": 17,
+    "velocity": 1,
+    "channel": 1,
+    "time": 122401
+  },
+  {
+    "type": "off",
+    "number": 17,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 122549
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 1,
+    "channel": 1,
+    "time": 124795
+  },
+  {
+    "type": "on",
+    "number": 19,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 124795
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 0.1968503937007874,
+    "channel": 1,
+    "time": 124872
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 124945
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 124945
+  },
+  {
+    "type": "off",
+    "number": 19,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 125092
+  },
+  {
+    "type": "on",
+    "number": 21,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 125991
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 125991
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 126150
+  },
+  {
+    "type": "off",
+    "number": 21,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 126299
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 126892
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 127051
+  },
+  {
+    "type": "on",
+    "number": 17,
+    "velocity": 1,
+    "channel": 1,
+    "time": 127250
+  },
+  {
+    "type": "off",
+    "number": 17,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 127374
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 128394
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 128545
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 1,
+    "channel": 1,
+    "time": 129000
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 129150
+  },
+  {
+    "type": "on",
+    "number": 19,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 129593
+  },
+  {
+    "type": "off",
+    "number": 19,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 129899
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 130949
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 131100
+  },
+  {
+    "type": "on",
+    "number": 10,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 132000
+  },
+  {
+    "type": "off",
+    "number": 10,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 132293
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 133801
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 133945
+  },
+  {
+    "type": "on",
+    "number": 38,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 133945
+  },
+  {
+    "type": "off",
+    "number": 38,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 134095
+  },
+  {
+    "type": "on",
+    "number": 15,
+    "velocity": 1,
+    "channel": 1,
+    "time": 134398
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 1,
+    "channel": 1,
+    "time": 134398
+  },
+  {
+    "type": "off",
+    "number": 15,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 134553
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 134553
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 135600
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 135750
+  },
+  {
+    "type": "on",
+    "number": 18,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 135895
+  },
+  {
+    "type": "off",
+    "number": 18,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 136192
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 136502
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 136649
+  },
+  {
+    "type": "on",
+    "number": 16,
+    "velocity": 1,
+    "channel": 1,
+    "time": 136794
+  },
+  {
+    "type": "off",
+    "number": 16,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 136943
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 137994
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 138141
+  },
+  {
+    "type": "on",
+    "number": 11,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 138300
+  },
+  {
+    "type": "off",
+    "number": 11,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 138600
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 1,
+    "channel": 1,
+    "time": 138600
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 138743
+  },
+  {
+    "type": "on",
+    "number": 15,
+    "velocity": 1,
+    "channel": 1,
+    "time": 139202
+  },
+  {
+    "type": "off",
+    "number": 15,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 139351
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 140544
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 140694
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 143396
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 143543
+  },
+  {
+    "type": "on",
+    "number": 38,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 143543
+  },
+  {
+    "type": "off",
+    "number": 38,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 143691
+  },
+  {
+    "type": "on",
+    "number": 19,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 144001
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 1,
+    "channel": 1,
+    "time": 144001
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 144151
+  },
+  {
+    "type": "off",
+    "number": 19,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 144294
+  },
+  {
+    "type": "on",
+    "number": 21,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 145193
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 145194
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 145345
+  },
+  {
+    "type": "off",
+    "number": 21,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 145492
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 146100
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 146244
+  },
+  {
+    "type": "on",
+    "number": 17,
+    "velocity": 1,
+    "channel": 1,
+    "time": 146452
+  },
+  {
+    "type": "off",
+    "number": 17,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 146570
+  },
+  {
+    "type": "on",
+    "number": 23,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 147602
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 147602
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 147749
+  },
+  {
+    "type": "off",
+    "number": 23,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 147899
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 1,
+    "channel": 1,
+    "time": 148194
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 148343
+  },
+  {
+    "type": "on",
+    "number": 19,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 148801
+  },
+  {
+    "type": "off",
+    "number": 19,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 149094
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 150141
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 150292
+  },
+  {
+    "type": "on",
+    "number": 22,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 150601
+  },
+  {
+    "type": "off",
+    "number": 22,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 150894
+  },
+  {
+    "type": "on",
+    "number": 10,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 151193
+  },
+  {
+    "type": "off",
+    "number": 10,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 151500
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 152993
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 153143
+  },
+  {
+    "type": "on",
+    "number": 38,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 153143
+  },
+  {
+    "type": "off",
+    "number": 38,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 153300
+  },
+  {
+    "type": "on",
+    "number": 15,
+    "velocity": 1,
+    "channel": 1,
+    "time": 153601
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 1,
+    "channel": 1,
+    "time": 153602
+  },
+  {
+    "type": "off",
+    "number": 15,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 153744
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 153744
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 154794
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 154943
+  },
+  {
+    "type": "on",
+    "number": 18,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 155101
+  },
+  {
+    "type": "off",
+    "number": 18,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 155400
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 155694
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 155842
+  },
+  {
+    "type": "on",
+    "number": 16,
+    "velocity": 1,
+    "channel": 1,
+    "time": 155992
+  },
+  {
+    "type": "off",
+    "number": 16,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 156150
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 157200
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 157346
+  },
+  {
+    "type": "on",
+    "number": 11,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 157494
+  },
+  {
+    "type": "on",
+    "number": 22,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 157494
+  },
+  {
+    "type": "off",
+    "number": 11,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 157793
+  },
+  {
+    "type": "off",
+    "number": 22,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 157793
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 1,
+    "channel": 1,
+    "time": 157793
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 157952
+  },
+  {
+    "type": "on",
+    "number": 15,
+    "velocity": 1,
+    "channel": 1,
+    "time": 158397
+  },
+  {
+    "type": "off",
+    "number": 15,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 158543
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 159742
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 159902
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 162602
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 162750
+  },
+  {
+    "type": "on",
+    "number": 38,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 162750
+  },
+  {
+    "type": "off",
+    "number": 38,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 162899
+  },
+  {
+    "type": "on",
+    "number": 19,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 163194
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 1,
+    "channel": 1,
+    "time": 163194
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 163342
+  },
+  {
+    "type": "off",
+    "number": 19,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 163492
+  },
+  {
+    "type": "on",
+    "number": 21,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 164392
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 164392
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 164549
+  },
+  {
+    "type": "off",
+    "number": 21,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 164700
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 165293
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 165451
+  },
+  {
+    "type": "on",
+    "number": 17,
+    "velocity": 1,
+    "channel": 1,
+    "time": 165650
+  },
+  {
+    "type": "off",
+    "number": 17,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 165773
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 166795
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 166943
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 1,
+    "channel": 1,
+    "time": 167401
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 167551
+  },
+  {
+    "type": "on",
+    "number": 19,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 167994
+  },
+  {
+    "type": "off",
+    "number": 19,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 168301
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 169351
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 169499
+  },
+  {
+    "type": "on",
+    "number": 10,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 170400
+  },
+  {
+    "type": "off",
+    "number": 10,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 170694
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 172200
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 172346
+  },
+  {
+    "type": "on",
+    "number": 38,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 172346
+  },
+  {
+    "type": "off",
+    "number": 38,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 172493
+  },
+  {
+    "type": "on",
+    "number": 15,
+    "velocity": 1,
+    "channel": 1,
+    "time": 172794
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 1,
+    "channel": 1,
+    "time": 172794
+  },
+  {
+    "type": "off",
+    "number": 15,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 172950
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 172950
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 174001
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 174149
+  },
+  {
+    "type": "on",
+    "number": 18,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 174295
+  },
+  {
+    "type": "off",
+    "number": 18,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 174591
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 174901
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 175050
+  },
+  {
+    "type": "on",
+    "number": 16,
+    "velocity": 1,
+    "channel": 1,
+    "time": 175194
+  },
+  {
+    "type": "off",
+    "number": 16,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 175344
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 176393
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 176542
+  },
+  {
+    "type": "on",
+    "number": 11,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 176700
+  },
+  {
+    "type": "off",
+    "number": 11,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 177000
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 1,
+    "channel": 1,
+    "time": 177000
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 177144
+  },
+  {
+    "type": "on",
+    "number": 15,
+    "velocity": 1,
+    "channel": 1,
+    "time": 177606
+  },
+  {
+    "type": "off",
+    "number": 15,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 177752
+  },
+  {
+    "type": "on",
+    "number": 36,
+    "velocity": 1,
+    "channel": 1,
+    "time": 178944
+  },
+  {
+    "type": "off",
+    "number": 36,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 179094
+  },
+  {
+    "type": "on",
+    "number": 37,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 181794
+  },
+  {
+    "type": "off",
+    "number": 37,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 181944
+  },
+  {
+    "type": "on",
+    "number": 38,
+    "velocity": 0.3228346456692913,
+    "channel": 1,
+    "time": 181944
+  },
+  {
+    "type": "off",
+    "number": 38,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 182093
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 1,
+    "channel": 1,
+    "time": 182402
+  },
+  {
+    "type": "on",
+    "number": 2,
+    "velocity": 0.7244094488188977,
+    "channel": 1,
+    "time": 182402
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 182696
+  },
+  {
+    "type": "off",
+    "number": 2,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 182696
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 0.1968503937007874,
+    "channel": 1,
+    "time": 183300
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 183596
+  },
+  {
+    "type": "on",
+    "number": 3,
+    "velocity": 0.7244094488188977,
+    "channel": 1,
+    "time": 184499
+  },
+  {
+    "type": "off",
+    "number": 3,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 184793
+  },
+  {
+    "type": "on",
+    "number": 5,
+    "velocity": 0.7244094488188977,
+    "channel": 1,
+    "time": 186893
+  },
+  {
+    "type": "off",
+    "number": 5,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 187200
+  },
+  {
+    "type": "on",
+    "number": 7,
+    "velocity": 0.7244094488188977,
+    "channel": 1,
+    "time": 189295
+  },
+  {
+    "type": "off",
+    "number": 7,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 189593
+  },
+  {
+    "type": "on",
+    "number": 4,
+    "velocity": 0.7244094488188977,
+    "channel": 1,
+    "time": 191999
+  },
+  {
+    "type": "off",
+    "number": 4,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 192291
+  },
+  {
+    "type": "on",
+    "number": 6,
+    "velocity": 0.7244094488188977,
+    "channel": 1,
+    "time": 194391
+  },
+  {
+    "type": "off",
+    "number": 6,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 194699
+  },
+  {
+    "type": "on",
+    "number": 8,
+    "velocity": 0.7244094488188977,
+    "channel": 1,
+    "time": 196794
+  },
+  {
+    "type": "off",
+    "number": 8,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 197093
+  },
+  {
+    "type": "on",
+    "number": 10,
+    "velocity": 0.7244094488188977,
+    "channel": 1,
+    "time": 199201
+  },
+  {
+    "type": "off",
+    "number": 10,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 199493
+  },
+  {
+    "type": "on",
+    "number": 24,
+    "velocity": 0.14960629921259844,
+    "channel": 1,
+    "time": 201596
+  },
+  {
+    "type": "on",
+    "number": 0,
+    "velocity": 0.14960629921259844,
+    "channel": 1,
+    "time": 201596
+  },
+  {
+    "type": "off",
+    "number": 24,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 201744
+  },
+  {
+    "type": "off",
+    "number": 0,
+    "velocity": 0.5039370078740157,
+    "channel": 1,
+    "time": 201744
+  }
+]

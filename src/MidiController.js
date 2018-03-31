@@ -1,33 +1,7 @@
-const WebMidi = require("webmidi")
-
-window.WebMidi = WebMidi
-
-const noteListeners = [];
-const noteOffListeners = [];
-
-WebMidi.enable(() => {
-    const input = WebMidi.getInputByName("TSCFF");
-
-    input.on("noteon", "all", (noteEvent) => {
-        let { note, velocity, channel } = noteEvent;
-        let noteName = note.name + note.octave;
-        let recNote = {number: note.number, noteName, velocity, channel};
-        noteListeners.forEach((cb) => cb(recNote))
-    })
-
-    input.on("noteoff", "all", (noteEvent) => {
-        let { note, velocity, channel } = noteEvent;
-        let noteName = note.name + note.octave;
-        let recNote = {number: note.number, noteName, velocity, channel};
-        noteOffListeners.forEach((cb) => cb(recNote))
-    })
-})
-
-module.exports = {
-    onNote(handler) {
-        noteListeners.push(handler)
-    },
-    onNoteOff(handler) {
-        noteOffListeners.push(handler)
-    }
+if(true || process.env.NODE_ENV === 'production') {
+    console.log("Prod mode using programmed music player")
+    module.exports = require('./MusicPlayer')
+} else {
+    console.log("Dev mode using web midi controller")
+    module.exports = require('./WebMidiController')
 }

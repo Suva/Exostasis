@@ -1,6 +1,7 @@
 require("../css/main.css")
 
 let Renderer = require("./Renderer")
+let midi = require('./MidiController')
 
 window.onload = async function () {
     let container = document.createElement("div");
@@ -22,9 +23,12 @@ window.onload = async function () {
     const renderer = Renderer(ctx, target)
 
     function frame() {
+        midi.update()
         renderer.render()
         window.requestAnimationFrame(frame);
     }
+
+    midi.play()
 
     window.requestAnimationFrame(frame);
 }
