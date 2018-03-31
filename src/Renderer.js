@@ -3,6 +3,8 @@ const RandomText = require('./RandomText')
 const PlacedText = require('./PlacedText')
 const BackgroundDrawer = require('./BackgroundDrawer')
 const Flash = require('./Flash')
+const Dust = require('./Dust')
+const Flicker = require('./Flicker')
 
 function calculatePosition(pos) {
     return (Math.max(Math.min((Math.random() - 0.5) * 4 + pos, 20), 0));
@@ -12,6 +14,8 @@ module.exports = function (ctx, target) {
     let frame = 0;
 
     const grain = Grain(target)
+    const dust = Dust(target)
+
     const painters = [
         BackgroundDrawer(ctx),
         Flash(ctx, 36, 'screen'),
@@ -21,7 +25,8 @@ module.exports = function (ctx, target) {
         // PlacedText(ctx, 48, 60, 460, 100, "LOOK"),
         RandomText(ctx, 49, "THEY"),
         RandomText(ctx, 50, "THEY ARE WATING"),
-        RandomText(ctx, 51, "FOR US")
+        RandomText(ctx, 51, "FOR US"),
+        Flicker(ctx)
     ]
 
     let xpos = 0;
@@ -43,6 +48,7 @@ module.exports = function (ctx, target) {
             target.drawImage(ctx.canvas, -20, -20, 1920 + 20, 1080 + 20)
             target.restore()
 
+            dust.render()
             grain.render()
         }
     }

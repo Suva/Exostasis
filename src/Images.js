@@ -1,5 +1,4 @@
 module.exports = {
-    cat: newImage(require("../img/P1000315.jpg")),
     grain: newImage(require('../img/noise.png')),
     urbex: [
         newImage(require('../img/urbex/urbex-1.jpg')),
@@ -24,6 +23,18 @@ module.exports = {
         newImage(require('../img/urbex/urbex-21.jpg')),
         newImage(require('../img/urbex/urbex-22.jpg')),
         newImage(require('../img/urbex/urbex-23.jpg'))
+    ],
+    dust: [
+        newImage(require('../img/dust/dust1.png')),
+        newImage(require('../img/dust/dust2.png')),
+        newImage(require('../img/dust/dust3.png')),
+        newImage(require('../img/dust/dust4.png')),
+        newImage(require('../img/dust/dust5.png')),
+        newImage(require('../img/dust/dust6.png')),
+        newImage(require('../img/dust/dust7.png')),
+        newImage(require('../img/dust/dust8.png')),
+        newImage(require('../img/dust/dust9.png')),
+        newImage(require('../img/dust/dust10.png'))
     ]
 }
 
