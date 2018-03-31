@@ -6,7 +6,7 @@ module.exports = function (ctx) {
     return {
         render() {
             ctx.save()
-            ctx.translate(-(Math.random() * 960), -(Math.random() * 640))
+            ctx.translate(-~~(Math.random() * 960), -~~(Math.random() * 640))
             ctx.rect(0, 0, 1920 + 960, 1080 + 960)
             ctx.fillStyle = patterns[~~(Math.random() * patterns.length)]
             ctx.fill()

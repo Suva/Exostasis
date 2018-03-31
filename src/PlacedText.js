@@ -1,6 +1,6 @@
 let midi = require( "./MidiController");
 
-module.exports = function (ctx, note, x, y, size, text) {
+module.exports = function (ctx, note, x, y, size, text, color = 'white') {
     let textDisplaying = false
 
     midi.onNote(({number}) => {
@@ -21,8 +21,8 @@ module.exports = function (ctx, note, x, y, size, text) {
                 return;
 
             ctx.save()
-            ctx.fillStyle = "white"
-            ctx.globalCompositeOperation = 'screen'
+            ctx.fillStyle = color
+            ctx.globalAlpha = 1
             ctx.font = size + 'px boycott'
             ctx.fillText(text, x, y)
             ctx.restore()

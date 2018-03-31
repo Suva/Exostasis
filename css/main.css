@@ -25,6 +25,11 @@ canvas {
     cursor: none;
 }
 
+canvas.hidden {
+    opacity: 0;
+    transition: opacity 5s ease-out;
+}
+
 .loader {
     display: inline-block;
     color: white;

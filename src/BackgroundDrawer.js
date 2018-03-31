@@ -5,14 +5,15 @@ module.exports = function (ctx) {
     let img = false
 
     midi.onNote(({ number, velocity }) => {
-        if(number == 0) {
+        if(number == 127) {
             img = null
         }
-        if(number > 0 && number < 24) {
+
+        if(number >= 0 && number < 24) {
             img = images[number]
         }
         if(number == 24) { // C0 - Opacity
-            ctx.globalAlpha = velocity
+            ctx.globalAlpha  = velocity
             console.log("Setting global alpha to: ", velocity)
         }
     })

@@ -27,6 +27,13 @@ window.onload = async function () {
 
         const renderer = Renderer(ctx, target)
 
+        midi.onNote(note => {
+            if(note.number === 126) {
+                canvas.classList.add('hidden')
+            }
+        })
+
+
         function frame() {
             midi.update()
             renderer.render()
@@ -36,6 +43,5 @@ window.onload = async function () {
         midi.play()
         window.requestAnimationFrame(frame);
     }, process.env.NODE_ENV === 'production' ? 3000 : 10)
-
 }
 
