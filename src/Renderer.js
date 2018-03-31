@@ -2,7 +2,6 @@ const Grain = require('./FilmGrain')
 const RandomText = require('./RandomText')
 const BackgroundDrawer = require('./BackgroundDrawer')
 const Flash = require('./Flash')
-let midi = require( "./MidiController");
 
 function pad(n, width, z) {
     z = z || '0';
@@ -14,16 +13,19 @@ function calculatePosition(pos) {
     return (Math.max(Math.min((Math.random() - 0.5) * 4 + pos, 20), 0));
 }
 
-module.exports = function (ctx, src, target) {
+module.exports = function (ctx, target) {
     let frame = 0;
 
     const grain = Grain(target)
-    const randomText = RandomText(ctx)
     const painters = [
         BackgroundDrawer(ctx),
         Flash(ctx, 36, 'screen'),
         Flash(ctx, 37, 'difference'),
-        Flash(ctx, 38, 'overlay')
+        Flash(ctx, 38, 'overlay'),
+        RandomText(ctx, 48, "LOOK"),
+        RandomText(ctx, 49, "THEY"),
+        RandomText(ctx, 50, "THEY ARE WATING"),
+        RandomText(ctx, 51, "FOR US")
     ]
 
     let xpos = 0;
@@ -45,7 +47,7 @@ module.exports = function (ctx, src, target) {
 
             target.save()
             target.translate(Math.floor(xpos), Math.floor(ypos))
-            target.drawImage(src, -20, -20, 1920 + 20, 1080 + 20)
+            target.drawImage(ctx.canvas, -20, -20, 1920 + 20, 1080 + 20)
             target.restore()
 
             target.fillStyle = "#CCC"

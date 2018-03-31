@@ -19,7 +19,7 @@ window.onload = async function () {
     const target = canvas.getContext('2d');
     const ctx = backBuf.getContext('2d');
 
-    const renderer = Renderer(ctx, backBuf, target)
+    const renderer = Renderer(ctx, target)
 
     function frame() {
         renderer.render()
