@@ -1,4 +1,4 @@
-if(true || process.env.NODE_ENV === 'production') {
+if(process.env.NODE_ENV === 'production') {
     console.log("Prod mode using programmed music player")
     module.exports = require('./MusicPlayer')
 } else {

@@ -4,32 +4,38 @@ let Renderer = require("./Renderer")
 let midi = require('./MidiController')
 
 window.onload = async function () {
-    let container = document.createElement("div");
-    container.setAttribute("class", "container")
-    let canvas = document.createElement("canvas");
-    canvas.setAttribute("width", 1920);
-    canvas.setAttribute("height", 1080);
+    let noloader = document.createElement('div')
+    noloader.classList.add('loader')
+    noloader.innerText = 'NO LOADER'
+    document.body.appendChild(noloader)
 
-    let backBuf = document.createElement("canvas");
-    backBuf.setAttribute("width", 960);
-    backBuf.setAttribute("height", 540);
+    setTimeout(() => {
+        document.body.removeChild(noloader)
 
-    container.appendChild(canvas);
-    document.body.appendChild(container);
+        let canvas = document.createElement("canvas");
+        canvas.setAttribute("width", 1920);
+        canvas.setAttribute("height", 1080);
 
-    const target = canvas.getContext('2d');
-    const ctx = backBuf.getContext('2d');
+        let backBuf = document.createElement("canvas");
+        backBuf.setAttribute("width", 960);
+        backBuf.setAttribute("height", 540);
 
-    const renderer = Renderer(ctx, target)
+        document.body.appendChild(canvas);
 
-    function frame() {
-        midi.update()
-        renderer.render()
+        const target = canvas.getContext('2d');
+        const ctx = backBuf.getContext('2d');
+
+        const renderer = Renderer(ctx, target)
+
+        function frame() {
+            midi.update()
+            renderer.render()
+            window.requestAnimationFrame(frame);
+        }
+
+        midi.play()
         window.requestAnimationFrame(frame);
-    }
+    }, process.env.NODE_ENV === 'production' ? 3000 : 10)
 
-    midi.play()
-
-    window.requestAnimationFrame(frame);
 }
 
