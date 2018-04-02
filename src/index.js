@@ -33,7 +33,6 @@ window.onload = async function () {
             }
         })
 
-
         function frame() {
             midi.update()
             renderer.render()

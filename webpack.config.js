@@ -10,7 +10,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-        new HtmlWebpackPlugin({inlineSource: '.(js|css)$'}),
+        new HtmlWebpackPlugin({inlineSource: '.(js|css)$', title: 'EXOSTASIS'}),
         new HtmlWebpackInlineSourcePlugin(),
         new IgnoreAssetsWebpackPlugin({ignore: 'main.js'})
     ],

@@ -19,7 +19,6 @@ module.exports = function (ctx, note, modifier) {
 
     midi.onNote(({number, velocity}) => {
         if(number === note) {
-            console.log('flash Triggered')
             bufCtx.drawImage(ctx.canvas, 0, 0)
             phase = 1
         }

@@ -28,7 +28,6 @@ module.exports = {
             let ev = song[songPos]
 
             if(ev.time <= time) {
-                console.log("Sending event", ev)
                 handleEvent(ev)
                 songPos++
             } else {

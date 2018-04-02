@@ -7,7 +7,6 @@ module.exports = function (ctx, note, text) {
 
     midi.onNote(({number, velocity}) => {
         if(number === note) {
-            console.log('Text '+text+' Triggered')
             for(let i = 0; i < numText; i++) {
                 let fontSize = (Math.random() * 20 + i / numText * 60)
                 textPositions[i] = {
@@ -22,7 +21,6 @@ module.exports = function (ctx, note, text) {
 
     midi.onNoteOff(({number}) => {
         if(number === note) {
-            console.log('Text ' + text + ' removed')
             textDisplaying = false
         }
     })

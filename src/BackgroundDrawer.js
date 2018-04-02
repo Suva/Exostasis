@@ -14,7 +14,6 @@ module.exports = function (ctx) {
         }
         if(number == 24) { // C0 - Opacity
             ctx.globalAlpha  = velocity
-            console.log("Setting global alpha to: ", velocity)
         }
     })
 

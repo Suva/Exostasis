@@ -1,0 +1,36 @@
++--------------------------------------------------------+
+|      ___ _  _ ____   ____ ____    ___  ___  ______     |
+|     //   \\// || )) ||    || \\  //   // \\ | || |     |
+|    ((     )/  ||=)  ||==  ||_// ((    ||=||   ||       |
+|     \\__ //   ||_)) ||___ || \\  \\__ || ||   ||       |
+|                                                        |
+|   ___ ____   ____  ___  ______ __   ___   __  __  __   |
+|  //   || \\ ||    // \\ | || | ||  // \\  ||\ || (( \  |
+| ((    ||_// ||==  ||=||   ||   || ((   )) ||\\||  \\   |
+|  \\__ || \\ ||___ || ||   ||   ||  \\_//  || \|| \_))  |
+|                                                        |
++--------------------------------------------------------+
+
+--=={ EXOSTASIS }==---------------------------------------
+
++------------------------------------------- EXOSTASIS --+
+| I thought there is not enough scenepoetry lately. So I |
+| fixed it. Here is one with plenty of that stuff.       |
++--------------------------------------------------------+
+
++--------------------------------------------- CREDITS --+
+| Music written by Cly/Suva on the train from Frankfurt  |
+| to Saarbrücken.                                        |
+| Photos taken by Cly/Suva during 2017.                  |
+| Code written by Cly/Suva during Revision 2018.         |
+| This nfo file writteh by Cly/Suva while very tired and |
+| slightly drunk.                                        |
++--------------------------------------------------------+
+
++------------------------------------------- TECHNICAL --+
+| Written in JavaScript using HTML5 canvas 2D context.   |
+| Packaged with webpack with url-loader plugin to create |
+| a single file.                                         |
++--------------------------------------------------------+
+
+                        2018 Revision

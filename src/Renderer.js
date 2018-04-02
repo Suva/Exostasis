@@ -37,7 +37,7 @@ module.exports = function (ctx, target) {
 
         RandomText(ctx, 57, "THEY ARE HERE"),
         RandomText(ctx, 58, "HERE"),
-        RandomText(ctx, 59, "WE MUST LOOK A WAY OUT"),
+        RandomText(ctx, 59, "WE MUST LOOK FOR A WAY OUT"),
         RandomText(ctx, 60, "RUN"),
 
         RandomText(ctx, 61, "THERE IS NO"),
@@ -52,7 +52,7 @@ module.exports = function (ctx, target) {
 
         RandomText(ctx, 69, "THEY GOT ME"),
         RandomText(ctx, 70, "LOST"),
-        RandomText(ctx, 71, "YOU MUST LOOK A WAY OUT"),
+        RandomText(ctx, 71, "YOU MUST LOOK FOR A WAY OUT"),
         RandomText(ctx, 72, "I AM LOST"),
 
         PlacedText(ctx, 73, 190, 330, 120, 'EXOSTASIS', '#800000'),
