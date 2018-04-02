@@ -6,10 +6,9 @@ let midi = require('./MidiController')
 window.onload = async function () {
     let noloader = document.createElement('div')
     noloader.classList.add('loader')
-    noloader.innerText = 'NO LOADER'
+    noloader.innerText = 'CLICK'
     document.body.appendChild(noloader)
-
-    setTimeout(() => {
+    noloader.onclick = () => {
         document.body.removeChild(noloader)
 
         let canvas = document.createElement("canvas");
@@ -41,6 +40,22 @@ window.onload = async function () {
 
         midi.play()
         window.requestAnimationFrame(frame);
-    }, process.env.NODE_ENV === 'production' ? 3000 : 10)
+        toggleFullScreen()
+
+    }
 }
 
+function toggleFullScreen() {
+    var doc = window.document;
+    var docEl = doc.documentElement;
+
+    var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+    var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+
+    if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
+        requestFullScreen.call(docEl);
+    }
+    else {
+        cancelFullScreen.call(doc);
+    }
+}
