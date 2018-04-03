@@ -25,6 +25,7 @@
   "dependencies": {
     "ease": "^0.1.0",
     "lodash": "latest",
+    "nosleep.js": "^0.7.0",
     "webmidi": "^2.0.0"
   }
 }

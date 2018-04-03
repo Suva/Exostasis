@@ -1,7 +1,16 @@
 require("../css/main.css")
 
+const NoSleep = require("nosleep.js")
+const noSleep = new NoSleep()
+
+function enableNoSleep() {
+    noSleep.enable();
+    document.removeEventListener('click', enableNoSleep, false);
+}
+
 let Renderer = require("./Renderer")
 let midi = require('./MidiController')
+let rendererRunning = true
 
 window.onload = async function () {
     let noloader = document.createElement('div')
@@ -9,6 +18,7 @@ window.onload = async function () {
     noloader.innerText = 'CLICK'
     document.body.appendChild(noloader)
     noloader.onclick = () => {
+        enableNoSleep()
         document.body.removeChild(noloader)
 
         let canvas = document.createElement("canvas");
@@ -29,13 +39,15 @@ window.onload = async function () {
         midi.onNote(note => {
             if(note.number === 126) {
                 canvas.classList.add('hidden')
+                setTimeout(() => rendererRunning = false, 6000)
+                noSleep.disable()
             }
         })
 
         function frame() {
             midi.update()
             renderer.render()
-            window.requestAnimationFrame(frame);
+            rendererRunning && window.requestAnimationFrame(frame);
         }
 
         midi.play()
