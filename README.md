@@ -1,6 +1,6 @@
 # Exostasis
 
-Web browser demo done for Revision 2018.
+Web browser demo done for Revision 2018. http://www.pouet.net/prod.php?which=75771
 
 ## Usage
 
